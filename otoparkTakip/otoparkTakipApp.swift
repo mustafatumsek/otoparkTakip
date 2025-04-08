@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct otoparkTakipApp: App {
+struct ParkingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ParkingView()
         }
     }
 }
