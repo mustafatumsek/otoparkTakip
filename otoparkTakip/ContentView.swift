@@ -147,7 +147,7 @@ struct SettingsView: View {     //ayarlar
     }
 }
 
-struct HistoryView: View {
+struct HistoryView: View {      //geçmiş araçlar
     @ObservedObject var viewModel: ParkingViewModel
 
     var body: some View {
